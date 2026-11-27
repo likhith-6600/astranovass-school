@@ -1,0 +1,23 @@
+<svg width="260" height="56" viewBox="0 0 260 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Skoola-style Owl / Cap Icon in Navy Card with Coral Accent -->
+  <g transform="translate(2, 4)">
+    <!-- Rounded Shield Background in Vibrant Skoola Royal Blue -->
+    <rect width="48" height="48" rx="12" fill="#0D85FD"/>
+    <!-- Coral base bar -->
+    <rect x="10" y="40" width="28" height="3" rx="1.5" fill="#EA6645"/>
+    <!-- Owl eyes / Graduation Mortarboard in White & Coral -->
+    <path d="M24 10L10 18L24 26L38 18L24 10Z" fill="#FFFFFF"/>
+    <!-- Owl Eyes in White and Dark Navy -->
+    <circle cx="18" cy="27" r="4.5" fill="#FFFFFF"/>
+    <circle cx="30" cy="27" r="4.5" fill="#FFFFFF"/>
+    <circle cx="18" cy="27" r="2.2" fill="#012951"/>
+    <circle cx="30" cy="27" r="2.2" fill="#012951"/>
+    <!-- Cute Owl Beak in Coral -->
+    <path d="M24 27L22 31H26L24 27Z" fill="#EA6645"/>
+    <!-- Ribbon Tassel -->
+    <path d="M37 19.5V28C37 29.5 35.5 30.5 34 30.5" stroke="#EA6645" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark in Pure White and Coral -->
+  <text x="60" y="30" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5">ASTRANOVAS</text>
+  <text x="60" y="46" fill="#EA6645" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" letter-spacing="2.2">INTERNATIONAL SCHOOL</text>
+</svg>

@@ -196,7 +196,7 @@ export function SkoolaApp() {
   const [selectedFacultyDetail, setSelectedFacultyDetail] = useState<any | null>(null);
   const [expandedWhyIdx, setExpandedWhyIdx] = useState<number | null>(null);
 
-  // Hero Ken Burns Slideshow State (5 Original Skoola Campus Slides, 5000ms duration)
+  // Hero Ken Burns Slideshow State (5 Indian Schoolchildren & Parents Slides, 5000ms duration)
   const heroSlides = [
     './assets/students-near-a-campus.jpg',
     './assets/three-young-college-students-is-reading-a-book-while-relaxing-sitting-on-grass-in-a-campus-park.jpg',
@@ -231,56 +231,56 @@ export function SkoolaApp() {
     {
       id: 'arts',
       category: 'arts',
-      title: 'Arts & Humanities Faculty',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'Creative & Performing Arts',
+      desc: 'Nurturing imagination through studio painting, classical music, theatre drama, and expressive visual arts.',
       image: './assets/teacher-doing-lesson-of-paint-on-canvas-to-young-students-in-faculty-of-arts-university.jpg',
       badge: 'Visual & Fine Arts',
-      details: 'Comprehensive fine arts studio with painting, pottery, theatre arts, and comparative literature seminars.',
+      details: 'Comprehensive fine arts studios featuring painting, pottery, classical dance, music ensembles, and theatrical stagecraft.',
     },
     {
       id: 'brain-sciences',
       category: 'science',
-      title: 'Brain Sciences Faculty',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'STEM & Robotics Innovation',
+      desc: 'Hands-on science discovery, coding, electronics, and robotics laboratories that turn curiosity into invention.',
       image: './assets/student-engineer-assembling-robotic-arm-with-computer-in-technology-workshop-.jpg',
-      badge: 'Cognitive & STEM',
-      details: 'Equipped with cognitive research labs, robotics arms, AI prototyping, and neuro-biology workstations.',
+      badge: 'STEM & Robotics',
+      details: 'Equipped with interactive maker stations, robotics kits, 3D modeling tools, and guided scientific experimentation.',
     },
     {
       id: 'engineering',
       category: 'robotics',
-      title: 'Engineering Sciences Faculty',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'Discovery & Life Sciences',
+      desc: 'Experiential biology, environmental stewardship, chemistry experiments, and nature exploration on our green campus.',
       image: './assets/group-of-happy-kids-with-their-african-american-female-science-teacher.jpg',
-      badge: 'Applied Engineering',
-      details: 'State-of-the-art maker laboratories with 3D additive printing, microcontrollers, and chemistry benches.',
+      badge: 'Discovery Science',
+      details: 'Modern science laboratories with microscopy, botanical gardens, eco-clubs, and inquiry-based lab sessions.',
     },
     {
       id: 'legal',
       category: 'legal',
-      title: 'Laws Faculty',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'Languages, Oratory & Leadership',
+      desc: 'Building articulate communicators through public speaking, Model UN, creative writing, and multilingual fluency.',
       image: './assets/female-lawyer-is-holding-law-book-and-giving-advice-about-laws-a.jpg',
-      badge: 'Debate & Jurisprudence',
-      details: 'Moot court hall, Model United Nations, parliamentary debate, and constitutional ethics seminars.',
+      badge: 'Debate & Oratory',
+      details: 'Dedicated reading lounges, debate forums, storytelling workshops, and leadership clubs for confident self-expression.',
     },
     {
       id: 'math',
       category: 'science',
-      title: 'Mathematical & Physical',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'Mathematics & Analytical Thinking',
+      desc: 'Developing logical precision, mental agility, and joyful problem-solving through conceptual maths and Olympiads.',
       image: './assets/rear-view-of-mature-teacher-talking-to-his-student-during-lecture-at-university-classroom-.jpg',
-      badge: 'Pure & Applied Maths',
-      details: 'Rigorous Olympiad mentoring in combinatorics, quantum physics demonstrations, and statistical computing.',
+      badge: 'Applied Maths',
+      details: 'Activity-based mathematics labs, Olympiad mentoring, puzzles, and real-world quantitative reasoning.',
     },
     {
       id: 'social',
       category: 'arts',
-      title: 'Social & Historical Sciences',
-      desc: 'Dapibus pellentesque suscipit augue lectus inceptos fames natoque',
+      title: 'Heritage, Social & Global Studies',
+      desc: 'Connecting Indian cultural heritage with global citizenship, geography, civic values, and community service.',
       image: './assets/multi-ethnic-group-of-university-students-in-lecture-hall-looking-at-camera-.jpg',
-      badge: 'Global Economics',
-      details: 'Macroeconomic simulations, world history archives, and international relations roundtables.',
+      badge: 'Global Citizenship',
+      details: 'Interactive heritage projects, community outreach initiatives, environmental awareness, and world history.',
     },
   ];
 
@@ -340,10 +340,10 @@ export function SkoolaApp() {
 
             <span className="sk-eyebrow">ADMISSIONS 2026–2027</span>
             <h2 className="sk-h2" style={{ fontSize: '28px', marginBottom: 10 }}>
-              Apply to Astranovas
+              Apply to Astra Novas
             </h2>
             <p className="sk-p" style={{ fontSize: '15px', marginBottom: 24 }}>
-              Register for the upcoming academic year. Our Admissions Counsellors will schedule your personal campus tour.
+              Register for the upcoming academic year. Our Admissions Counsellors will schedule your family’s personal campus tour.
             </p>
 
             {formSubmitted ? (
@@ -465,7 +465,7 @@ export function SkoolaApp() {
             </button>
             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
               <iframe
-                title="Astranovas Campus Tour Video"
+                title="Astra Novas Campus Tour Video"
                 src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4?autoplay=1"
                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -475,7 +475,7 @@ export function SkoolaApp() {
             <div style={{ padding: '22px 28px', background: '#000F1D', color: '#FFFFFF' }}>
               <span className="sk-eyebrow" style={{ color: '#EA6645', marginBottom: 4 }}>CAMPUS EXPERIENCE</span>
               <h3 style={{ fontFamily: 'var(--sk-font-heading)', fontSize: '19px', color: '#FFFFFF', margin: 0 }}>
-                Astranovas International School — Transformative Education & Campus Tour
+                Astra Novas International School — Potential to Radiance Campus Tour
               </h3>
             </div>
           </div>
@@ -570,7 +570,7 @@ export function SkoolaApp() {
 
       {/* FLOATING QUICK ENQUIRY WIDGET */}
       <a
-        href="https://wa.me/918188848787?text=Hello%20Astranovas%20School%2C%20I%20would%20like%20to%20inquire%20about%20admissions."
+        href="https://wa.me/918188848787?text=Hello%20Astra%20Novas%20School%2C%20I%20would%20like%20to%20inquire%20about%20admissions."
         target="_blank"
         rel="noreferrer"
         className="sk-floating-whatsapp"
@@ -610,7 +610,7 @@ export function SkoolaApp() {
                   </Reveal>
                   <Reveal anim="fadeInUp" delay={200}>
                     <p className="sk-hero-p-full">
-                      Cursus morbi letius lacus sollicitudin blandit inceptos dis. Suscipit proin porta quis natoque aliquam sodales euismod ex convallis porttitor.
+                      From Potential to Radiance — nurturing happy, confident, and compassionate young learners in a safe, joyful, and inspiring 14-acre campus in Vizianagaram where parents and educators partner in every child’s growth.
                     </p>
                   </Reveal>
                   <Reveal anim="fadeInUp" delay={300}>
@@ -635,23 +635,23 @@ export function SkoolaApp() {
                     <div className="sk-hero-features-bar">
                       <div className="sk-hero-features-grid">
                         <div className="sk-hero-feature-item">
-                          <div className="sk-hero-feature-title">Diverse Learning Community</div>
+                          <div className="sk-hero-feature-title">Joyful & Caring Community</div>
                           <p className="sk-hero-feature-desc">
-                            Nibh purus maecenas vestibulum vulputate felis scelerisque dignissim inceptos taciti sociosqu massa
+                            Every child is welcomed, valued, and encouraged to be their unique self in a warm environment of belonging and mutual respect.
                           </p>
                         </div>
 
                         <div className="sk-hero-feature-item">
-                          <div className="sk-hero-feature-title">Career Development Support</div>
+                          <div className="sk-hero-feature-title">Holistic Growth & Mentorship</div>
                           <p className="sk-hero-feature-desc">
-                            Nibh purus maecenas vestibulum vulputate felis scelerisque dignissim inceptos taciti sociosqu massa
+                            Dedicated teachers guide children to ask questions freely, discover their natural strengths, and build lifelong confidence.
                           </p>
                         </div>
 
                         <div className="sk-hero-feature-item">
-                          <div className="sk-hero-feature-title">Strong Alumni Network</div>
+                          <div className="sk-hero-feature-title">Strong Parent-School Partnership</div>
                           <p className="sk-hero-feature-desc">
-                            Nibh purus maecenas vestibulum vulputate felis scelerisque dignissim inceptos taciti sociosqu massa
+                            We walk hand-in-hand with parents through transparent communication, family engagement days, and shared values.
                           </p>
                         </div>
                       </div>
@@ -665,12 +665,12 @@ export function SkoolaApp() {
             <div className="sk-badge-ribbon-row">
               <div className="sk-container">
                 <div className="sk-badge-ribbon-inner">
-                  <img src="./assets/badge.png" alt="Skoola Owl Crest Badge" />
+                  <img src="./assets/badge.png" alt="Astra Novas Excellence Badge" />
                 </div>
               </div>
             </div>
 
-            {/* SECTION 4: STUDY AT SKOOLA 2x2 MOSAIC (GRAYSCALE->COLOR HOVER) + WHO WE ARE (9987ebc) */}
+            {/* SECTION 4: STUDY AT ASTRA NOVAS 2x2 MOSAIC (GRAYSCALE->COLOR HOVER) + WHO WE ARE (9987ebc) */}
             <section className="sk-sec4-wrap">
               <div className="sk-container">
                 <div className="sk-sec4-split">
@@ -680,10 +680,10 @@ export function SkoolaApp() {
                     <Reveal anim="fadeInLeft" className="sk-mosaic-box sk-mosaic-coral">
                       <div className="sk-mosaic-content">
                         <h3 style={{ fontFamily: 'var(--sk-font-heading)', fontSize: '26px', fontWeight: 700, color: '#FFFFFF', marginBottom: 10 }}>
-                          Study at Astranovas
+                          Life at Astra Novas
                         </h3>
                         <p style={{ fontStyle: 'italic', fontSize: '16px', color: 'rgba(255,255,255,0.92)', marginBottom: 22, lineHeight: 1.45 }}>
-                          Integer mi senectus maecenas pede facilisis praesent torquent
+                          Where curiosity meets kindness, and every classroom inspires joyful discovery.
                         </p>
                         <button
                           type="button"
@@ -724,7 +724,7 @@ export function SkoolaApp() {
                       />
                       <div className="sk-mosaic-content">
                         <h3 style={{ fontFamily: 'var(--sk-font-heading)', fontSize: '24px', fontWeight: 700, marginBottom: 18 }}>
-                          Academic excellence
+                          Academic Excellence
                         </h3>
                         <a
                           href="./academics.html"
@@ -744,7 +744,7 @@ export function SkoolaApp() {
                       />
                       <div className="sk-mosaic-content">
                         <h3 style={{ fontFamily: 'var(--sk-font-heading)', fontSize: '24px', fontWeight: 700, marginBottom: 18 }}>
-                          Faculties & Schools
+                          Parent & Child Bonding
                         </h3>
                         <a
                           href="./faculties.html"
@@ -761,10 +761,10 @@ export function SkoolaApp() {
                   <Reveal anim="fadeInRight" className="sk-sec4-right-text">
                     <span className="sk-eyebrow">WHO WE ARE</span>
                     <h2 className="sk-h2">
-                      Knowledge will bring you the opportunity to make a difference.
+                      Knowledge and character that empower children to make a difference.
                     </h2>
                     <p className="sk-p" style={{ marginBottom: 28 }}>
-                      Mus volutpat ultricies massa nec fusce. Massa ac porttitor nascetur auctor cursus himenaeos velit ligula justo torquent hac. Pede quisque augue iaculis auctor nisi. Tortor ligula mus elit pede risus luctus adipiscing nisl.
+                      At Astra Novas International School, Vizianagaram, we blend global academic standards with timeless Indian values. Our thoughtfully designed campus at the Gantyada Foothills gives children the space to explore science, arts, athletics, and leadership while feeling deeply supported by caring teachers and engaged parents.
                     </p>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14 }}>
                       <button
@@ -854,10 +854,10 @@ export function SkoolaApp() {
                         marginBottom: 20,
                       }}
                     >
-                      The Astranovas story through data
+                      The Astra Novas story through data
                     </h2>
                     <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '16px', marginBottom: 28 }}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                      Our commitment to personalised attention, experiential learning, and parent-teacher collaboration is reflected in the everyday growth and happiness of our students.
                     </p>
                     <button
                       type="button"
@@ -874,20 +874,20 @@ export function SkoolaApp() {
                   <Reveal anim="fadeIn" delay={200}>
                     <div className="sk-sec6-counter-bar">
                       <AnimatedCounter
-                        toValue={91}
+                        toValue={98}
                         suffix="%"
-                        title="Undergrads from State"
+                        title="Parent Satisfaction & Trust"
                       />
                       <AnimatedCounter
-                        toValue={4.2}
-                        decimals={1}
+                        toValue={14}
+                        decimals={0}
                         suffix="+"
-                        title="Average years to degree for freshmen"
+                        title="Acres of Green Learning Campus"
                       />
                       <AnimatedCounter
-                        toValue={97}
+                        toValue={100}
                         suffix="%"
-                        title="Freshman graduation rate"
+                        title="Holistic Student Engagement"
                       />
                     </div>
                   </Reveal>
@@ -902,24 +902,24 @@ export function SkoolaApp() {
                   {/* Left Column (fadeInLeft) */}
                   <Reveal anim="fadeInLeft">
                     <span className="sk-eyebrow">OVERVIEW</span>
-                    <h2 className="sk-h2">Navigating the Journey of Intellectual Growth.</h2>
+                    <h2 className="sk-h2">Navigating the Journey of Intellectual & Personal Growth.</h2>
                     <p className="sk-p" style={{ marginBottom: 32 }}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                      We partner closely with Indian parents to ensure every child receives individual mentorship, strong foundational concepts, and values that prepare them for a rapidly changing world.
                     </p>
 
                     <div>
                       {[
                         {
                           title: 'Personalized Learning Paths',
-                          desc: 'Ad curae justo molestie vestibulum netus litora dolor ligula adipiscing.',
+                          desc: 'Tailored guidance that respects each child’s pace, curiosity, and unique learning style from Early Years through Senior School.',
                         },
                         {
-                          title: 'Critical Thinking Development',
-                          desc: 'Ad curae justo molestie vestibulum netus litora dolor ligula adipiscing.',
+                          title: 'Critical Thinking & Inquiry',
+                          desc: 'Encouraging children to ask questions freely, experiment in science and robotics labs, and solve real-world challenges.',
                         },
                         {
-                          title: 'Exploration of Diverse Perspectives',
-                          desc: 'Ad curae justo molestie vestibulum netus litora dolor ligula adipiscing.',
+                          title: 'Rooted Values & Global Outlook',
+                          desc: 'Nurturing respect for family, cultural heritage, empathy, and the confidence to shine on global platforms.',
                         },
                       ].map((item, idx) => (
                         <div key={idx} className="sk-overview-item">
@@ -943,7 +943,7 @@ export function SkoolaApp() {
                   <Reveal anim="fadeInRight">
                     <img
                       src="./assets/college-student-friends-in-the-campus-students-ready-to-start-academic-classes-of-their-university.jpg"
-                      alt="Navigating the Journey of Intellectual Growth"
+                      alt="Indian Parents and Child at Astra Novas"
                       style={{
                         width: '100%',
                         height: 650,
@@ -957,26 +957,26 @@ export function SkoolaApp() {
               </div>
             </section>
 
-            {/* SECTION 8: 3 DEGREE CARDS WITH FLOATING BOTTOM ARROW ICON (1af50c4) */}
+            {/* SECTION 8: 3 ACADEMIC STAGE CARDS WITH FLOATING BOTTOM ARROW ICON (1af50c4) */}
             <section style={{ padding: '2em 0 8em', background: '#FFFFFF' }}>
               <div className="sk-container">
                 <div className="sk-grid-3">
                   {[
                     {
-                      title: 'Master’s Degree Programs',
-                      desc: 'Habitasse magnis dictum montes curae bibendum sed nunc',
+                      title: 'High School & Senior Wing',
+                      desc: 'Rigorous academic preparation, science & competitive exam foundation, leadership portfolios, and career guidance.',
                       image: './assets/students-near-a-campus.jpg',
                       anim: 'fadeInLeft' as const,
                     },
                     {
-                      title: 'Bachelor’s Degree Programs',
-                      desc: 'Habitasse magnis dictum montes curae bibendum sed nunc',
+                      title: 'Middle School Wing',
+                      desc: 'Bridging foundational concepts with hands-on STEM experiments, debate, coding, and team sports.',
                       image: './assets/student-engineer-assembling-robotic-arm-with-computer-in-technology-workshop-.jpg',
                       anim: 'fadeInUp' as const,
                     },
                     {
-                      title: 'Associate’s Degree Programs',
-                      desc: 'Habitasse magnis dictum montes curae bibendum sed nunc',
+                      title: 'Early Years & Primary Wing',
+                      desc: 'A joyful, safe, and play-enriched foundation building literacy, numeracy, curiosity, and social confidence.',
                       image: './assets/asian-girl-student-online-learning-class-study-online-video-call-zoom-teacher-happy-asian-girl.jpg',
                       anim: 'fadeInRight' as const,
                     },
@@ -1012,7 +1012,7 @@ export function SkoolaApp() {
             <section className="sk-sec9-wrap">
               <div className="sk-container">
                 <div className="sk-grid-2" style={{ alignItems: 'center', gap: 56 }}>
-                  {/* Left 50%: Princeton Campus Video Card with 100px Multi-Ring Ripple Play Button */}
+                  {/* Left 50%: Indian Mother & Child Video Card with 100px Multi-Ring Ripple Play Button */}
                   <Reveal anim="fadeInLeft">
                     <div className="sk-sec9-video-card">
                       <button
@@ -1040,7 +1040,7 @@ export function SkoolaApp() {
                         marginBottom: 22,
                       }}
                     >
-                      Live as if you were to die tomorrow. Learn as if you were to live forever.
+                      Every child carries a spark of greatness waiting to shine with confidence.
                     </h2>
                     <p
                       style={{
@@ -1051,7 +1051,7 @@ export function SkoolaApp() {
                         marginBottom: 32,
                       }}
                     >
-                      Arcu nullam sollicitudin condimentum justo libero fringilla tellus augue tempus. Velit habitasse commodo habitant laoreet condimentum nisl maximus tellus ex. Luctus viverra montes si hac ligula maximus vitae proin placerat finibus volutpat.
+                      When parents and teachers come together to create a warm, encouraging environment, children develop the courage to explore new ideas, embrace challenges, and grow into compassionate leaders.
                     </p>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14 }}>
                       <button
@@ -1086,13 +1086,13 @@ export function SkoolaApp() {
                   <Reveal anim="fadeInUp">
                     <span className="sk-eyebrow">WHY CHOOSE US</span>
                     <h2 className="sk-h2" style={{ margin: 0 }}>
-                      Discover Why Our Campus is Your Gateway to Success.
+                      Discover Why Families Across Vizianagaram Trust Our Campus.
                     </h2>
                   </Reveal>
 
                   <Reveal anim="fadeInUp" delay={200}>
                     <p className="sk-p" style={{ marginBottom: 20 }}>
-                      Viverra vel rutrum arcu lobortis letius. Magnis a euismod ornare feugiat commodo dictum ultricies ultrices natoque. Vestibulum inceptos cursus sed vel aliquet aenean tellus posuere.
+                      We combine international curriculum best practices with safe infrastructure, caring teachers, and open parent communication so your child thrives academically, socially, and emotionally.
                     </p>
                     <button
                       type="button"
@@ -1110,8 +1110,8 @@ export function SkoolaApp() {
                     {[
                       {
                         title: 'Academic Excellence',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: 'Cambridge international curriculum paired with individualised mentorship and conceptual inquiry.',
+                        desc: 'Concept-driven lessons that build deep understanding, curiosity, and strong study habits.',
+                        more: 'International benchmarking paired with individualised mentorship and hands-on inquiry.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
@@ -1120,9 +1120,9 @@ export function SkoolaApp() {
                         ),
                       },
                       {
-                        title: 'Cutting-Edge Facilities',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: 'Robotics studios, Olympic swimming pool, digital library, and modern science laboratories.',
+                        title: 'Modern & Safe Facilities',
+                        desc: 'Spacious ventilated classrooms, science and computer labs, library, and expansive sports grounds.',
+                        more: '24/7 CCTV-monitored campus, purified water, infirmary, and GPS-enabled school buses.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
@@ -1132,9 +1132,9 @@ export function SkoolaApp() {
                         ),
                       },
                       {
-                        title: 'Diverse Learning Community',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: 'Inclusive peer fellowship nurturing cultural appreciation, leadership, and empathy.',
+                        title: 'Inclusive & Joyful Culture',
+                        desc: 'A warm school family where every child feels heard, respected, and excited to learn each day.',
+                        more: 'Peer buddy programs, cultural celebrations, and collaborative group projects.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
@@ -1145,9 +1145,9 @@ export function SkoolaApp() {
                         ),
                       },
                       {
-                        title: 'Career Development Support',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: 'Dedicated university placement guidance, portfolio building, and global research internships.',
+                        title: 'Future-Ready Skills',
+                        desc: 'Public speaking, financial literacy, coding, robotics, and leadership starting from primary grades.',
+                        more: 'Regular Olympiads, science exhibitions, and career awareness workshops.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
@@ -1155,9 +1155,9 @@ export function SkoolaApp() {
                         ),
                       },
                       {
-                        title: 'Commitment to Sustainability',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: '14-acre green estate powered by solar energy, organic orchards, and rainwater harvesting.',
+                        title: 'Green & Sustainable Campus',
+                        desc: '14 acres at Gantyada Foothills connecting children with nature, gardening, and outdoor play.',
+                        more: 'Solar-powered facilities, organic kitchen gardens, and environmental clubs.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -1165,9 +1165,9 @@ export function SkoolaApp() {
                         ),
                       },
                       {
-                        title: 'Student Support Services',
-                        desc: 'Pellentesque felis eros fames id torquent molestie himenaeos.',
-                        more: 'On-campus medical infirmary, certified student counsellors, and GPS-tracked transport.',
+                        title: 'Parent Engagement & Care',
+                        desc: 'Regular parent-teacher dialogues, progress updates, and family events that keep parents connected.',
+                        more: 'Dedicated counsellors, health checkups, and personalised student portfolios.',
                         icon: (
                           <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#EA6645" strokeWidth="1.8">
                             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -1208,7 +1208,7 @@ export function SkoolaApp() {
               </div>
             </section>
 
-            {/* SECTION 11: SKOOLA FACULTIES WITH -90px SLIDE-UP DRAWER ON HOVER (77ffe41) */}
+            {/* SECTION 11: ASTRA NOVAS FACULTIES WITH -90px SLIDE-UP DRAWER ON HOVER (77ffe41) */}
             <section style={{ padding: '6em 0 7em', background: '#FFFFFF' }}>
               <div className="sk-container">
                 {/* 2-Column Header with Bottom Border (8bb5cc1) */}
@@ -1222,7 +1222,7 @@ export function SkoolaApp() {
                   }}
                 >
                   <Reveal anim="fadeInUp">
-                    <span className="sk-eyebrow">ASTRANOVAS FACULTIES</span>
+                    <span className="sk-eyebrow">LEARNING DEPARTMENTS</span>
                     <h2 className="sk-h2" style={{ margin: 0 }}>
                       Transformative Education, Endless Opportunities.
                     </h2>
@@ -1230,7 +1230,7 @@ export function SkoolaApp() {
 
                   <Reveal anim="fadeInUp" delay={200}>
                     <p className="sk-p" style={{ marginBottom: 20 }}>
-                      Viverra vel rutrum arcu lobortis letius. Magnis a euismod ornare feugiat commodo dictum ultricies ultrices natoque. Vestibulum inceptos cursus sed vel aliquet aenean tellus posuere.
+                      Our interdisciplinary departments bring learning alive through practical experiments, creative arts, eloquent communication, and collaborative teamwork.
                     </p>
                     <a href="./faculties.html" className="sk-btn">
                       Discover more
@@ -1241,11 +1241,11 @@ export function SkoolaApp() {
                 {/* Interactive Filter Tabs */}
                 <div className="sk-filter-tabs">
                   {[
-                    { id: 'all', label: 'All Faculties' },
-                    { id: 'arts', label: 'Arts & Humanities' },
-                    { id: 'science', label: 'Brain & Mathematical Sciences' },
-                    { id: 'robotics', label: 'Engineering Sciences' },
-                    { id: 'legal', label: 'Laws Faculty' },
+                    { id: 'all', label: 'All Departments' },
+                    { id: 'arts', label: 'Arts & Heritage' },
+                    { id: 'science', label: 'STEM & Mathematics' },
+                    { id: 'robotics', label: 'Discovery Sciences' },
+                    { id: 'legal', label: 'Languages & Oratory' },
                   ].map((tab) => (
                     <button
                       key={tab.id}
@@ -1308,25 +1308,25 @@ export function SkoolaApp() {
             <section className="sk-sec12-wrap">
               <div className="sk-sec12-left">
                 <div style={{ position: 'relative', zIndex: 1, maxWidth: 560 }}>
-                  <span className="sk-eyebrow">OUR VALUE</span>
+                  <span className="sk-eyebrow">OUR EDUCATIONAL PILLARS</span>
                   <h2 className="sk-h2" style={{ color: '#FFFFFF', marginBottom: 18 }}>
-                    Knowledge will bring you the opportunity to make a difference.
+                    Nurturing confident learners, independent thinkers, and kind individuals.
                   </h2>
                   <p style={{ color: 'rgba(255,255,255,0.88)', fontSize: '16px', lineHeight: 1.65, marginBottom: 24 }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    Through meaningful classroom experiences, constant encouragement, and active parent involvement, we help every child move from Potential to Radiance.
                   </p>
                   <div style={{ width: '100%', height: 1, background: 'var(--sk-accent-line)', marginBottom: 28 }} />
 
-                  <AnimatedSkillBar title="Global Perspective" percentage={84} />
-                  <AnimatedSkillBar title="Strong Alumni Network" percentage={61} />
-                  <AnimatedSkillBar title="Innovative Teaching Methods" percentage={76} />
+                  <AnimatedSkillBar title="Experiential & Joyful Learning" percentage={96} />
+                  <AnimatedSkillBar title="Parent-Teacher Collaboration" percentage={98} />
+                  <AnimatedSkillBar title="Confidence, Oratory & Life Skills" percentage={94} />
                 </div>
               </div>
 
               <div className="sk-sec12-right">
                 <img
                   src="./assets/harvard-university-campus.jpg"
-                  alt="Astranovas Campus Architecture"
+                  alt="Smiling Indian School Children with Books"
                 />
               </div>
             </section>
@@ -1337,15 +1337,15 @@ export function SkoolaApp() {
                 <div className="sk-grid-2" style={{ alignItems: 'flex-end', gap: 48 }}>
                   {/* Left 50% (fadeInLeft) */}
                   <Reveal anim="fadeInLeft" style={{ paddingBottom: '5em' }}>
-                    <span className="sk-eyebrow">MESSAGE FROM FOUNDER</span>
+                    <span className="sk-eyebrow">MESSAGE FROM LEADERSHIP</span>
                     <h2 className="sk-h2" style={{ marginBottom: 20 }}>
-                      Education’s purpose is to replace an empty mind with an open one.
+                      Education’s true purpose is to awaken confidence, kindness, and curiosity in every child.
                     </h2>
                     <p className="sk-p">
-                      Nulla augue morbi ac est himenaeos primis diam vulputate. Dictum himenaeos volutpat augue posuere tortor erat sollicitudin morbi. Neque ornare vel arcu nisi ante curae pretium.
+                      At Astra Novas International School, we believe every child arrives with boundless potential. When children feel safe, loved, and respected for who they are, learning becomes a joyful adventure rather than a burden.
                     </p>
                     <p className="sk-p" style={{ marginBottom: 32 }}>
-                      Nulla augue morbi ac est himenaeos primis diam vulputate. Dictum himenaeos volutpat augue posuere tortor erat sollicitudin morbi. Neque ornare vel arcu nisi ante curae pretium.
+                      We invite parents to walk alongside us as partners in this journey — nurturing young minds in Vizianagaram who are rooted in compassion and ready to shine across the world.
                     </p>
 
                     {/* Bottom Split: Signature Box (48%) + Video Ripple Button (48%) */}
@@ -1370,10 +1370,10 @@ export function SkoolaApp() {
                           style={{ height: 44, width: 'auto', marginBottom: 10 }}
                         />
                         <div style={{ fontFamily: 'var(--sk-font-heading)', fontSize: '17px', fontWeight: 700, color: '#252525' }}>
-                          Prof. Dr. Kayla Scott, Ph.D
+                          Founder & Academic Director
                         </div>
                         <div style={{ fontSize: '14px', color: '#767676' }}>
-                          Founder
+                          Astra Novas International School
                         </div>
                       </div>
 
@@ -1398,17 +1398,17 @@ export function SkoolaApp() {
                             cursor: 'pointer',
                           }}
                         >
-                          Play video
+                          Watch Message
                         </span>
                       </div>
                     </div>
                   </Reveal>
 
-                  {/* Right 50%: Tall Founder Cutout Portrait (fadeInUp) */}
+                  {/* Right 50%: Tall Portrait (fadeInUp) */}
                   <Reveal anim="fadeInUp" style={{ display: 'flex', justifyContent: 'center' }}>
                     <img
                       src="./assets/img_1.png"
-                      alt="Prof. Dr. Kayla Scott, Ph.D"
+                      alt="School Leadership"
                       style={{
                         maxHeight: 620,
                         width: 'auto',
@@ -1424,7 +1424,7 @@ export function SkoolaApp() {
             {/* SECTION 14: FINAL CAMPUS CTA BANNER WITH HALFTONE OVERLAY (40f7521) */}
             <section className="sk-sec14-wrap">
               <div className="sk-container" style={{ position: 'relative', zIndex: 1 }}>
-                <Reveal anim="fadeInLeft" style={{ maxWidth: 600 }}>
+                <Reveal anim="fadeInLeft" style={{ maxWidth: 620 }}>
                   <h2
                     style={{
                       fontFamily: 'var(--sk-font-heading)',
@@ -1435,17 +1435,17 @@ export function SkoolaApp() {
                       marginBottom: 20,
                     }}
                   >
-                    Live as if you were to die tomorrow. Learn as if you were to live forever.
+                    Give your child a happy, caring environment where they learn with joy.
                   </h2>
                   <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '16px', marginBottom: 28 }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    Admissions are open for 2026–2027 from Early Years to Senior School. Visit our Gantyada campus in Vizianagaram with your family to experience the Astra Novas difference firsthand.
                   </p>
                   <button
                     type="button"
                     onClick={() => setModalOpen(true)}
                     className="sk-btn"
                   >
-                    Discover more
+                    Book a Family Campus Visit
                   </button>
                 </Reveal>
               </div>
@@ -1463,10 +1463,10 @@ export function SkoolaApp() {
                 <Reveal anim="fadeInUp" style={{ maxWidth: 780 }}>
                   <span className="sk-eyebrow" style={{ color: '#EA6645' }}>ABOUT OUR INSTITUTION</span>
                   <h1 className="sk-h1" style={{ color: '#FFFFFF' }}>
-                    Nurturing Tomorrow's Leaders with Integrity & Excellence
+                    Nurturing Tomorrow's Leaders with Confidence & Compassion
                   </h1>
                   <p className="sk-p" style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px' }}>
-                    Founded with the enduring vision of delivering world-class international schooling to Andhra Pradesh, Astranovas International School combines rigorous Cambridge academic standards with deep personal character development.
+                    Founded with the enduring vision of delivering world-class international schooling to Andhra Pradesh, Astra Novas International School combines global academic excellence with deep personal character development and family values.
                   </p>
                 </Reveal>
               </div>
@@ -1482,7 +1482,7 @@ export function SkoolaApp() {
                       Located near Toll Gate, Gantyada, in the historic district of Vizianagaram, Astra Novas International School provides an oasis of focused study away from urban congestion. Our faculty are chosen not only for academic expertise but for their dedication to mentoring young minds.
                     </p>
                     <p className="sk-p">
-                      From interactive robotics laboratories to Olympic athletics grounds, our master plan guarantees that every pupil has access to world-class infrastructure.
+                      From interactive STEM and robotics laboratories to expansive athletics grounds, our master plan guarantees that every pupil has access to world-class infrastructure in a caring, child-first atmosphere.
                     </p>
                     <button type="button" onClick={() => setModalOpen(true)} className="sk-btn">
                       Connect with Admissions
@@ -1491,7 +1491,7 @@ export function SkoolaApp() {
                   <Reveal anim="fadeInRight">
                     <img
                       src="./assets/college-student-friends-in-the-campus-students-ready-to-start-academic-classes-of-their-university.jpg"
-                      alt="Campus Life"
+                      alt="Indian Parents and Child at Astra Novas"
                       style={{ borderRadius: 5, boxShadow: '0 15px 40px rgba(0, 15, 29, 0.1)' }}
                     />
                   </Reveal>
@@ -1566,10 +1566,10 @@ export function SkoolaApp() {
                 <Reveal anim="fadeInUp" style={{ maxWidth: 780 }}>
                   <span className="sk-eyebrow" style={{ color: '#EA6645' }}>ACADEMIC CONTINUUM</span>
                   <h1 className="sk-h1" style={{ color: '#FFFFFF' }}>
-                    From Early Discovery to Global University Pathways
+                    From Early Discovery to Senior Secondary Excellence
                   </h1>
                   <p className="sk-p" style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px' }}>
-                    A structured educational journey designed to build conceptual depth, analytical precision, and articulate self-expression.
+                    A joyful, structured educational journey designed to build conceptual depth, analytical precision, and confident self-expression at every stage of childhood.
                   </p>
                 </Reveal>
               </div>
@@ -1618,12 +1618,12 @@ export function SkoolaApp() {
             <section className="sk-sec14-wrap" style={{ padding: '7em 0 8em' }}>
               <div className="sk-container" style={{ position: 'relative', zIndex: 1 }}>
                 <Reveal anim="fadeInUp" style={{ maxWidth: 780 }}>
-                  <span className="sk-eyebrow" style={{ color: '#EA6645' }}>OUR SCHOOLS & DISCIPLINES</span>
+                  <span className="sk-eyebrow" style={{ color: '#EA6645' }}>OUR DEPARTMENTS & MENTORS</span>
                   <h1 className="sk-h1" style={{ color: '#FFFFFF' }}>
-                    Interdisciplinary Faculties Led by Renowned Educators
+                    Caring Educators Who Inspire Curiosity & Confidence
                   </h1>
                   <p className="sk-p" style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px' }}>
-                    Explore our state-of-the-art departments dedicated to science, technology, arts, and leadership.
+                    Explore our specialized learning wings dedicated to science, mathematics, creative arts, languages, and holistic child development.
                   </p>
                 </Reveal>
               </div>
@@ -1671,10 +1671,10 @@ export function SkoolaApp() {
                 <Reveal anim="fadeInUp" style={{ maxWidth: 780 }}>
                   <span className="sk-eyebrow" style={{ color: '#EA6645' }}>GET IN TOUCH</span>
                   <h1 className="sk-h1" style={{ color: '#FFFFFF' }}>
-                    Admissions & Campus Visit Center
+                    Admissions & Family Campus Visit Center
                   </h1>
                   <p className="sk-p" style={{ color: 'rgba(255,255,255,0.9)', fontSize: '18px' }}>
-                    We invite prospective families to experience our campus, laboratories, and athletic fields firsthand.
+                    We welcome parents and children to visit our campus, meet our teachers, and explore our classrooms, laboratories, and sports facilities firsthand.
                   </p>
                 </Reveal>
               </div>
@@ -1686,7 +1686,7 @@ export function SkoolaApp() {
                   <Reveal anim="fadeInLeft" style={{ background: '#FFFFFF', padding: 40, borderRadius: 5, boxShadow: '0 0 50px rgba(0,0,0,0.08)' }}>
                     <h2 className="sk-h2">Admissions Office</h2>
                     <p className="sk-p">
-                      Our admissions team is available Monday through Saturday to answer questions regarding stage placement, scholarships, and campus facilities.
+                      Our admissions counsellors are available Monday through Saturday to guide parents through grade placement, campus tours, transport routes, and fee structure.
                     </p>
 
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 20, marginTop: 24 }}>
@@ -1709,7 +1709,7 @@ export function SkoolaApp() {
                         </p>
                       </div>
                       <div>
-                        <strong>Office Hours:</strong>
+                        <strong>Visiting Hours:</strong>
                         <p style={{ margin: '4px 0 0', color: '#767676' }}>
                           Monday – Saturday: 8:30 AM to 4:30 PM
                         </p>
@@ -1718,9 +1718,9 @@ export function SkoolaApp() {
                   </Reveal>
 
                   <Reveal anim="fadeInRight" style={{ background: '#FFFFFF', padding: 40, borderRadius: 5, boxShadow: '0 0 50px rgba(0,0,0,0.08)' }}>
-                    <h3 className="sk-h3">Book a Campus Tour</h3>
+                    <h3 className="sk-h3">Book a Family Campus Tour</h3>
                     <p className="sk-p" style={{ fontSize: '14px', marginBottom: 20 }}>
-                      Fill in your details below and our team will confirm your scheduled slot.
+                      Fill in your details below and our admissions team will confirm your family’s visit slot.
                     </p>
 
                     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>

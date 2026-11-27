@@ -34,7 +34,7 @@ export const SkoolaFooter: React.FC = () => {
                 margin: 0,
               }}
             >
-              Signup our newsletter to get update information, news, insight or promotions.
+              Receive school updates, parent workshop invitations, admissions notifications, and student achievement highlights from Astra Novas.
             </h3>
           </div>
 
